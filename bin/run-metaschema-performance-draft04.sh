@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPEATS=200
-CP=target/medeia-validator-performance-0.8.4-SNAPSHOT-jar-with-dependencies.jar
+CP=target/medeia-validator-performance-*-jar-with-dependencies.jar
 CLASS=com.worldturner.medeia.schema.performance.v4meta.MetaSchemaPerformanceTestingKt
 
 for i in {1..200}; do
